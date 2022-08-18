@@ -7,7 +7,7 @@ When I was doing the desktop implementation I had to at the same time start crea
 After finishing the development, had to do make some test to see if the site was responsive, fast and lightweight. I also did a code review in order to make some optimizations.
 
 - Did you use any tools/libraries and why did you use them?
-For coding I used Visual Studio Code and for performance and testing I used Chrome DevTools. 
+For coding I used Visual Studio Code and for performance and testing I used Chrome DevTools and PageSpeed Insights. 
 Boostrap for the icons and help to make the page more responsive and also reduce the implementation time due to predefined classes. 
 
 - How did you make sure that the page is SEO-friendly?
