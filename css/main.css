@@ -1,0 +1,432 @@
+/*--------------------------------------------------------------------- File Name: main.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #181d21;
+    color: #fff;
+}
+
+.bg-primary-color{
+    background-color: #181d21;
+}
+p{
+    color: rgba(255,255,255,.5);
+}
+body {
+    background-color: #171d21;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.80857;
+    color: #fff;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+i{
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #fff;
+    margin: 0
+}
+
+h1 {
+    font-size: 2.250em;
+    font-weight: 600;
+    margin-bottom: 0.938rem;
+}
+
+h2 {
+    font-size: 2.125em;
+    margin-bottom: 0.625rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.875em
+}
+
+h6{
+    font-size:1.500em
+
+}
+
+img {
+    pointer-events: none
+}
+
+
+
+
+/*-------------------------------------------------------------------------- HEADER --------------------------------------------------------------------------*/
+
+
+.nav-link, 
+.nav-link:focus,
+.nav-link:hover,
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:hover
+{
+    color: #fff;
+}
+
+.navbar-expand-lg {    
+    border-bottom: solid 1px #ffffff4a;
+}
+
+.lang{
+    margin-left: 0.5rem;
+}
+
+.navbar-brand{
+    margin-left: 0.313rem;
+}
+
+.nav-link:focus, .nav-link:hover {
+    background-color: #ffffff47;
+    border-radius: 5px;
+}
+
+.nav-item {
+    margin: 0rem 0.625rem;
+}
+
+.btn-check:focus+.btn, .btn:focus{
+    background-color: #ffffff47;
+    border-radius: 5px;
+}
+    
+
+/*------------------------------------------------------------------------ END HEADER -------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------- MAIN --------------------------------------------------------------------------*/
+
+.mainblock-images{
+    position: absolute;
+}
+
+.name-product{
+    color: rgba(255,255,255,.7);
+    font-weight: 600;
+}
+
+.main-block{    
+    border-radius: 15px;
+	margin-top: 1.5rem;
+}
+
+.block-imac {
+    position: relative;
+}
+
+.iphone-image-block{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.image-iphone {
+    left: 33.5%;
+    position: absolute;
+    margin: auto;
+    width: 34%;
+    bottom: 0;
+}
+
+.main-block--right{
+    margin-top: 4.063rem;
+}
+
+.image-imac{
+    left: 11%;
+    width: 78.7%;
+}
+
+.image-homescreen{
+    left: 13.8%;
+    width: 73.3%;
+    top: 4.5%;
+}
+
+.image-iphone{
+    left: 33.5%;
+    top: 44%;
+    width: 34%;
+}
+
+.duo-block{
+    border-radius: 15px;
+    padding: 4rem 5rem 0rem;
+    margin-top: 1.25rem;
+    height: 80%;
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+}
+
+.gx-1{
+    border-radius: 15px;
+    background: linear-gradient(#171d21, #1d262b);
+}
+
+.quicktransfer-img{
+    width: 600px;
+    display: block;
+}
+
+.top-block-text{
+    max-width: 1048px;
+    margin-bottom: 4rem;
+}
+
+.btn{
+    color: #fff;
+}
+
+.btn-learn{
+background-color: #171d21;
+border: none;
+margin: 1.25rem 0px;
+padding: 0.625rem 0.938rem;
+}
+
+.lang-block{
+    display: flex;
+    align-items: center;
+}
+
+.btn-green{
+    background-color: #009f25;
+}
+
+.btn-blue{
+    background-color:#003259;
+}
+
+.btn--group > .btn-blue{
+	margin-left:10px
+}
+
+.red-bg-block{
+    background: url(../images/feature-quicktransfer.png)no-repeat right -85px bottom -88%, linear-gradient(#2c1e27 70%, #665360);
+    background-size: contain;
+    height: 755px;
+}
+
+.solo-bg-block{
+    background: url(../images/feature-quicktransfer.png)no-repeat right -85px bottom -88%, linear-gradient(#1d242b 70%, #515b64);
+    background-size: contain;
+    height: 755px;
+}
+
+
+.icons-duo-block{
+    margin-bottom: 2.188rem;
+}
+
+.min-vh{
+    min-height: 96vh;
+}
+
+/*-------------------------------------------------------------------------- END MAIN --------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------- START QUERY --------------------------------------------------------------------------*/
+
+@media (max-width: 420px) {
+    
+.block-imac{
+    min-height: 280px;
+    
+}
+
+.image-imac{
+    width: 90%;
+    left: 5.5%;
+}
+
+.main-block--right {
+    margin-top: 1.563rem;
+}
+
+.image-homescreen{
+    width: 82%;
+    top: 5.5%;
+    left: 9.6%;
+}
+
+.dropdown-toggle:focus, .show{
+    border: none;
+}
+
+.duo-block{
+    padding: 1.5rem;
+    height: 665px;
+}
+
+.btn-learn{
+    margin: 0.625rem 0rem;
+}
+
+.image-iphone {
+    width: 40%;
+    left: 31%;
+    top: 43%;
+}
+
+.quicktransfer-img {
+    width: 430px;
+}
+
+.navbar-brand{
+    display: none;
+}
+
+
+.navbar-toggler{
+    order: 1;
+    font-size: 1em;
+    color: #fff;
+    background-color: #2b4159;
+    padding: 0.313rem 0.938rem;
+}
+
+.nav-icon{
+    order: 2;
+}
+
+.lang-block{
+    order: 3;
+}
+
+.top-block-text{
+    margin-bottom: 1.25rem;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    flex-wrap: wrap-reverse;
+}
+
+.btn--group{
+	display: flex;
+   	flex-direction: column;
+}
+
+.btn--group > .btn-blue {
+    margin-left: 0rem;
+    margin: 0.938rem 0rem;
+}
+
+.icons-duo-block {
+    margin: auto auto 1.25rem;
+    display: block;
+}
+
+.red-bg-block {
+    background: url(../images/feature-quicktransfer.png)no-repeat right -85px bottom -45%, linear-gradient(#2c1e27 70%, #665360);
+    background-size: contain;
+}
+
+.solo-bg-block {
+    background: url(../images/feature-quicktransfer.png)no-repeat right -85px bottom -45%, linear-gradient(#1d242b 70%, #515b64);
+    background-size: contain;
+    margin-top: 0rem;
+}
+
+}
+
+
+@media (min-width: 1400px) {
+    .duo-block{
+        height: 845px;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    .min-vh {
+        min-height: 83vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .min-vh {
+        min-height: 69vh;
+    }
+
+    .duo-block{
+        height: 780px;
+    }
+
+    .solo-bg-block {
+        background: url(../images/feature-quicktransfer.png)no-repeat right -85px bottom -49%, linear-gradient(#1d242b 70%, #515b64);
+        background-size: contain;
+    }
+
+    .red-bg-block {
+        background: url(../images/feature-quicktransfer.png)no-repeat right -85px bottom -49%, linear-gradient(#2c1e27 70%, #665360);
+        background-size: contain;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    .min-vh{
+        min-height: 51vh;
+    }
+}
+
+
+@media (min-width: 548px) and (max-width: 767px) { 
+
+    .min-vh{
+        min-height: 37vh;
+    }
+}
+/*-------------------------------------------------------------------------- END QUERY --------------------------------------------------------------------------*/
